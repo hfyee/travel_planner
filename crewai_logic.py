@@ -214,7 +214,7 @@ gather_task = Task(
 
 plan_task = Task(
     description=dedent("""
-        Expand this guide into a a full 7-day travel
+        Expand this guide into a a full 8-day travel
         itinerary with detailed per-day plans, including
         weather forecasts, places to eat, packing suggestions,
         and a budget breakdown.
