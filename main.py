@@ -18,10 +18,10 @@ st.markdown("Hi, let me help you with your trip planning!")
 # --- SIDEBAR: CONFIGURATION ---
 with st.sidebar:
     st.header("⚙️ Your inputs")
-    origin = st.text_input("From where will you be traveling from?", placeholder="e.g., Singapore")
-    cities = st.text_input("What are the cities options you are interested in visiting?", placeholder="e.g., Tokyo, Kyoto, Osaka")
-    date_range = st.text_input("What is your date range for the trip?", placeholder="e.g., 2026-11-25 to 2026-12-08")
-    interests = st.text_input("What are your interests for the trip?", placeholder="e.g., culture, food, nature")
+    origin = st.text_input("From where will you be traveling from?", placeholder="e.g. Singapore")
+    cities = st.text_input("What are the cities options you are interested in visiting?", placeholder="e.g. Tokyo, Kyoto, Osaka")
+    date_range = st.text_input("What is your date range for the trip?", placeholder="e.g. 2026-11-25 to 2026-12-08")
+    interests = st.text_input("What are your interests for the trip?", placeholder="e.g. culture, food, nature")
     st.divider()
     st.info("Version v0.1 (c) HF 2026")
 
